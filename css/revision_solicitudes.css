@@ -1,0 +1,110 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.solicitudes-container {
+    max-width: 1500px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.solicitudes-title {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.solicitudes-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.solicitudes-tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    color: #007bff;
+    transition: all 0.3s ease;
+}
+
+.solicitudes-tab.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.solicitudes-tab:hover {
+    background-color: #e0e0e0;
+}
+
+.solicitudes-tab-content {
+    display: none;
+}
+
+.solicitudes-tab-content.active {
+    display: block;
+}
+
+.solicitudes-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.solicitudes-table th,
+.solicitudes-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.solicitudes-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.solicitudes-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.solicitudes-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para los botones */
+.btn-enviar {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.btn-enviar:hover {
+    background-color: darkgreen;
+}
+
+.btn-cancelar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.btn-cancelar:hover {
+    background-color: darkred;
+}

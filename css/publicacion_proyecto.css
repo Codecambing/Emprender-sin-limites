@@ -1,0 +1,235 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #f4f4f9;
+    margin: 10px;
+    padding: 0;
+}
+
+.project-publication {
+    max-width: 800px;
+    margin: 110px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-publication h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.project-publication .project-banner {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project-publication p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.p-detalle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.action-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.action-buttons .delete-button {
+    background-color: #dc3545;
+}
+
+.action-buttons .delete-button:hover {
+    background-color: #b02a37;
+}
+
+.comments-section, .existing-comments {
+    max-width: 800px;
+    margin: 110px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.comment-form textarea {
+    min-height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #0056b3;
+}
+
+.existing-comments ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.existing-comments li {
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.existing-comments li:last-child {
+    border-bottom: none;
+}
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.comment-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stars {
+    display: flex;
+}
+
+.star {
+    color: #FFD700; /* Estrella dorada */
+    font-size: 16px;
+}
+
+.star.empty {
+    color: #ccc; /* Estrella vacía */
+}
+
+.comment-text {
+    margin: 5px 0;
+}
+
+.comment-date {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.delete-button {
+    color: red;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.report-button {
+    color: blue;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.withdraw-button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.withdraw-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.report-button {
+    background-color: darkred;
+}
+.action-buttons .report-button {
+    background-color: #f44336; /* Rojo para destacar el botón */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.action-buttons .dreport-button:hover {
+    background-color: #b02a37;
+}
+
+.action-buttons .report-button:hover {
+    background-color: #e53935; /* Rojo oscuro al pasar el ratón */
+}

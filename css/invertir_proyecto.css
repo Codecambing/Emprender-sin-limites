@@ -1,0 +1,149 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.investment-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.investment-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.project-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.investment-container p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.investment-container p strong {
+    color: #2c3e50;
+}
+
+/* Estilo para los botones de recompensa */
+.reward-buttons button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px; /* Añadir espacio entre botones */
+}
+
+.reward-buttons button:hover {
+    background-color: #2980b9;
+}
+
+.reward-buttons button span {
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+/* Formulario de inversión (oculto inicialmente) */
+.reward-form {
+    display: none;
+    margin-top: 10px;
+}
+
+.reward-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+.reward-form input,
+.reward-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.reward-form input:focus,
+.reward-form select:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.5);
+}
+
+.reward-form button {
+    background-color: #27ae60;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.reward-form button:hover {
+    background-color: #2ecc71;
+}
+
+/* Botón para invertir sin recompensa */
+.invest-without-reward {
+    margin-top: 20px;
+    background-color: #27ae60;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.invest-without-reward:hover {
+    background-color: #2ecc71;
+}
+
+/* Media queries para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .investment-container {
+        padding: 15px;
+    }
+
+    .investment-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .reward-buttons button,
+    .reward-form button,
+    .invest-without-reward {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}

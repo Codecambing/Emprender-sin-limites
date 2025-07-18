@@ -1,0 +1,101 @@
+.contenedor {
+    max-width: 600px;
+    margin: 125px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-report {
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-report:hover {
+    background-color: darkred;
+}
+
+.profile-section {
+    margin-top: 20px;
+}
+
+.profile-photo-container {
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.experiences-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experiences-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experiences-section li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.experiences-section li:last-child {
+    border-bottom: none;
+}
+
+.btn-baja {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e63946; /* Rojo llamativo */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-baja:hover {
+    background-color: #d62828; /* Rojo más oscuro */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-baja:active {
+    background-color: #b71c1c; /* Rojo aún más oscuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-baja:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+

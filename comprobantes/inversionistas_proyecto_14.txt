@@ -1,0 +1,4 @@
+Inversionistas del proyecto: test
+--------------------------------------------------
+Nombre	Correo	Monto	Recompensa
+dylson	dylson@gmail.com	1500	sin recompensa

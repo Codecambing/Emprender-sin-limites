@@ -1,0 +1,110 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #f4f4f9;
+    margin: 10px;
+    padding: 0;
+}
+/* Contenedor principal */
+.investor-list-container {
+    max-width: 900px;
+    margin: 110px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    font-family: Montserrat, sans-serif;
+}
+
+/* Título principal */
+.investor-list-container h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Tabla de la lista de inversores */
+.investor-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd; /* Bordes de la tabla */
+}
+
+/* Cabecera de la tabla */
+.investor-list-table thead th {
+    padding: 12px;
+    background-color: #007bff; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    text-align: left;
+    font-size: 1rem;
+    border-bottom: 2px solid #0056b3; /* Borde inferior más oscuro */
+}
+
+/* Filas de la tabla */
+.investor-list-table tbody tr {
+    transition: background-color 0.3s; /* Transición suave al pasar el ratón */
+}
+
+.investor-list-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo gris claro para filas pares */
+}
+
+.investor-list-table tbody tr:hover {
+    background-color: #e9ecef; /* Fondo más claro al pasar el ratón */
+}
+
+/* Celdas de la tabla */
+.investor-list-table tbody td {
+    padding: 10px;
+    font-size: 0.95rem;
+    color: #333;
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre filas */
+    vertical-align: middle; /* Alinear verticalmente */
+}
+
+/* Imágenes de perfil */
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Imagen circular */
+    object-fit: cover; /* Ajustar la imagen */
+    border: 2px solid #007bff; /* Borde azul */
+}
+
+/* Texto de los nombres */
+.investor-list-table tbody td:nth-child(2) {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Montos invertidos */
+.investor-list-table tbody td:nth-child(3) {
+    text-align: right; /* Alinear a la derecha */
+    color: #28a745; /* Verde */
+}
+
+/* Mensaje si no hay inversores */
+.investor-list-container p {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .investor-list-container {
+        padding: 10px;
+    }
+
+    .investor-list-table tbody td {
+        font-size: 0.9rem; /* Reducir tamaño de texto */
+    }
+
+    .profile-pic {
+        width: 40px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,205 @@
+/* Estilo general de la página de proyectos */
+.project-page body {
+    font-family: Montserrat, sans-serif;
+    margin: 0; /* Evitar márgenes para que no interfiera con la navbar */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f9;
+}
+
+.project-page .container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+/* Sidebar */
+.project-page .sidebar {
+    width: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    text-align: center;
+}
+
+.project-page .sidebar h2, .project-page .sidebar h3 {
+    margin-bottom: 15px;
+}
+
+.project-page #searchInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.project-page #createProjectButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    background-color: #080b2d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.project-page #searchButton {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #080b2d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.project-page #searchButton:hover, .project-page #createProjectButton:hover {
+    background-color: #080b2d;
+}
+
+/* Lista de Proyectos */
+.project-page .project-list {
+    width: 70%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-page .project-list h2 {
+    text-align: center;
+}
+
+.project-page #projectList {
+    list-style: none;
+    padding: 0;
+}
+
+/* Tarjeta de cada Proyecto */
+.project-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Banner del Proyecto */
+.project-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarla */
+    object-position: center; /* Centra la imagen */
+}
+
+/* Información del Proyecto */
+.project-info {
+    padding: 15px;
+}
+
+.project-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Estilo del botón de crear proyecto nuevo */
+#createProjectButton {
+    width: 90%; /* Ajusta según el ancho que desees */
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #003366; /* Azul marino */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px auto; /* Espaciado y centrado debajo de la sidebar */
+    display: block;
+}
+
+#createProjectButton:hover {
+    background-color: #002244; /* Un tono más oscuro al pasar el cursor */
+}
+
+.edit-button, .delete-button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #FF0000;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+.nombre-proyecto {
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 15px; /* Margen inferior */
+    margin-top: 15px;
+}
+
+.nombre-proyecto-link {
+    color: #000000; /* Color negro */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    display: inline-block; /* Asegurar centrado con el contenedor */
+}
+
+.nombre-proyecto-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+    color: #444444; /* Color más claro al pasar el mouse */
+}
+
+
+h2.proyecto{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}

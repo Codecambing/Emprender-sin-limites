@@ -1,0 +1,79 @@
+.investments-container {
+    margin: 150px auto;
+    width: 90%;
+    max-width: 1200px;
+    font-family: Montserrat, sans-serif;
+}
+
+.investments-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.investment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.investment-table th, .investment-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.investment-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.investment-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.investment-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.cancel-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: #d63030;
+}
+
+.cancel-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Opcional: Estilo para el mensaje de "sin resultados" */
+.investments-container p {
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+}
+
+.comment-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}

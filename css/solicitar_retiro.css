@@ -1,0 +1,119 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.project-info {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-info h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.project-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.project-info p strong {
+    color: #2c3e50;
+}
+
+.withdraw-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.withdraw-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.withdraw-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+.withdraw-form input,
+.withdraw-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.withdraw-form input:focus,
+.withdraw-form select:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.5);
+}
+
+.withdraw-form button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+}
+
+.withdraw-form button:hover {
+    background-color: #2980b9;
+}
+
+/* Media queries para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .project-info,
+    .withdraw-form {
+        padding: 15px;
+    }
+
+    .project-info h1,
+    .withdraw-form h2 {
+        font-size: 1.5rem;
+    }
+
+    .withdraw-form input,
+    .withdraw-form select,
+    .withdraw-form button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}

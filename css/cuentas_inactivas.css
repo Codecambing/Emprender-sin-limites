@@ -1,0 +1,61 @@
+/* Contenedor principal */
+.user-list-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.user-list-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Contenedor de la lista de usuarios */
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Elemento de usuario individual */
+.user-item {
+    text-align: center;
+    width: 150px;
+}
+
+/* Enlace del usuario */
+.user-link {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Imagen del usuario */
+.user-photo {
+    width: 100px; /* Ancho fijo */
+    height: 100px; /* Alto fijo */
+    border-radius: 50%;
+    object-fit: cover; /* Asegura que la imagen se recorte proporcionalmente */
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+/* Nombre del usuario */
+.user-name {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Efecto hover */
+.user-link:hover .user-photo {
+    transform: scale(1.1);
+    border-color: #007bff;
+}
+

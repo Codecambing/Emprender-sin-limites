@@ -1,0 +1,149 @@
+body {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.profile-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.profile-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttons button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#save-button {
+    background-color: #008CBA;
+    color: white;
+}
+
+#cancel-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.profile-photo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.upload-photo-label {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+.upload-photo-label i {
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttons button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#save-button {
+    background-color: #008CBA;
+    color: white;
+}
+
+#cancel-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.experiences-container {
+    margin-top: 30px;
+}
+
+.experience-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.experience-list {
+    margin-top: 20px;
+}
+
+.experience-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.experience-item p {
+    margin: 0;
+}
+
+.experience-item button {
+    margin-top: 5px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
