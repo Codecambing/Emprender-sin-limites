@@ -1,0 +1,32 @@
+// Enviar correo al usuario con los detalles y comprobante adjunto
+// require 'PHPMailer/PHPMailerAutoload.php';
+
+//$mail = new PHPMailer();
+//$mail->isSMTP();
+//$mail->Host = 'smtp.tu-servidor-de-correo.com'; // Configura el servidor SMTP
+//$mail->SMTPAuth = true;
+//$mail->Username = 'tu-correo@ejemplo.com';
+//$mail->Password = 'tu-contraseña';
+//$mail->SMTPSecure = 'tls';
+//$mail->Port = 587;
+
+//$mail->setFrom('no-reply@tu-dominio.com', 'Administración');
+//$mail->addAddress($correo);
+//$mail->addAttachment($destino, 'comprobante.jpg'); // Adjuntar el comprobante
+//$mail->isHTML(true);
+
+//$mail->Subject = "Solicitud de Retiro Confirmada";
+//$mail->Body = "
+    //<p>Hola,</p>
+    //<p>Tu solicitud de retiro para el proyecto <b>{$proyecto}</b> ha sido confirmada. A continuación, se muestra la lista de usuarios que invirtieron en tu proyecto:</p>
+    //{$tabla_inversionistas}
+    //<p>Gracias por usar nuestra plataforma.</p>";
+
+//if ($mail->send()) {
+    //echo "<script>
+        //alert('El correo con el comprobante ha sido enviado correctamente.');
+       // window.location.href = 'revision_solicitudes.php?status=success';
+    //</script>";
+//} //else {
+   // echo "Error al enviar el correo: " . $mail->ErrorInfo;
+//}
